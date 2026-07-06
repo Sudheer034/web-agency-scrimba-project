@@ -1,0 +1,53 @@
+body
+{
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  color: #020202;
+}
+
+#hero
+{
+  background-image: url("img/faded-office.png");
+  background-size: cover;
+  padding: 5px 0 120px 40px;
+}
+
+#main-heading
+{
+  font-weight: bold;
+  width: 200px;
+}
+
+.underline
+{
+  border-bottom: 4px solid #0ea5e9;
+}
+
+p
+{
+  width: 200px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.chat-button
+{
+  background-color: #0ea5e9;
+  color: white;
+  padding: 12px 20px;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+  transition: 0.15s box-shadow, 0.15s opacity;
+}
+
+.chat-button:hover
+{
+  box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
+
+.chat-button:active
+{
+  opacity: 0.8;
+  box-shadow: none;
+}
